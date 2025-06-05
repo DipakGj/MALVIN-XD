@@ -5,7 +5,7 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "malvin~Z2sUwZhD#O6u4zSBji0L8HeCaK216QvCh0xqLqYX__O4PhA0O2mE",
+SESSION_ID: process.env.SESSION_ID || "malvin~E6MAmSRY#s4G7aNHoivgzYXvQKzJaPcLY18zOr8dYxoscqweBJZE",
 // add your Session Id make sure it starts with malvin~
 PREFIX: process.env.PREFIX || ".",
 // add your prifix for bot   
@@ -29,7 +29,8 @@ MODE: process.env.MODE || "public",
 
 
        WELCOME: process.env.WELCOME || "true",
-// true if want welcome and goodbye msg in groups 
+// true if want welcome to our group good by tu pod mara Bokachoda 
+
    
        ADMIN_EVENTS: process.env.ADMIN_EVENTS || "true",
 // make true to know who dismiss or promoted a member in group
@@ -53,7 +54,7 @@ MODE: process.env.MODE || "public",
         STICKER_NAME: process.env.STICKER_NAME || "ᴍᴀʟᴠɪɴ-xᴅ",
 // type sticker pack name 
 
-        CUSTOM_REACT: process.env.CUSTOM_REACT || "false",
+        CUSTOM_REACT: process.env.CUSTOM_REACT || "true",
 // make this true for custum emoji react  
   
       CUSTOM_REACT_EMOJIS: process.env.CUSTOM_REACT_EMOJIS || "💝,💖,💗,❤️‍🩹,❤️,🧡,💛,💚,💙,💜,🤎,🖤,🤍",
@@ -79,7 +80,7 @@ OWNER_NAME: process.env.OWNER_NAME || "ᴍᴀʟᴠɪɴ ᴛᴇᴄʜ",
                 ANTI_BAD: process.env.ANTI_BAD || "false",
 // false or true for anti bad words  
 
-            ANTI_LINK_KICK: process.env.ANTI_LINK_KICK || "false",
+            ANTI_LINK_KICK: process.env.ANTI_LINK_KICK || "true",
 // make anti link true,false for groups 
 
             AUTO_VOICE: process.env.AUTO_VOICE || "false",
@@ -94,7 +95,7 @@ OWNER_NAME: process.env.OWNER_NAME || "ᴍᴀʟᴠɪɴ ᴛᴇᴄʜ",
         ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "false",
 // maks true for always online 
 
-         PUBLIC_MODE: process.env.PUBLIC_MODE || "false",
+         PUBLIC_MODE: process.env.PUBLIC_MODE || "true",
 // make false if want private mod
 
         AUTO_TYPING: process.env.AUTO_TYPING || "false",
@@ -103,7 +104,7 @@ OWNER_NAME: process.env.OWNER_NAME || "ᴍᴀʟᴠɪɴ ᴛᴇᴄʜ",
    READ_CMD: process.env.READ_CMD || "false",
 // true if want mark commands as read 
 
-     DEV: process.env.DEV || "263780166288",
+     DEV: process.env.DEV || "",
 //replace with your whatsapp number    
     
     ANTI_VV: process.env.ANTI_VV || "true",
@@ -123,10 +124,10 @@ START_MSG: process.env.START_MSG || `*Hᴇʟʟᴏ ᴛʜᴇʀᴇ ᴍᴀʟᴠɪɴ 
     *ᴋᴇᴇᴘ ᴏɴ ᴜsɪɴɢ ᴍᴀʟᴠɪɴ ᴍᴏᴅs🚩* 
 
 > Joɪɴ ᴡʜᴀᴛsᴀᴘᴘ ᴄʜᴀɴɴᴇʟ (ᴀ ᴍᴜsᴛ): ⤵️  
-    https://whatsapp.com/channel/0029VbA6MSYJUM2TVOzCSb2A
+    
 
 > sᴜʙsᴄʀɪʙᴇ ʏᴛ ᴄʜᴀɴɴᴇʟ ғᴏʀ ᴛᴜᴛᴏʀɪᴀʟs
-    https://youtube.com/@malvintech2
+    
 
     - *ʏᴏᴜʀ ʙᴏᴛ ᴘʀᴇғɪx: ➡️[ . ]*
 > - ʏᴏᴜ ᴄᴀɴ ᴄʜᴀɴɢᴇ ᴜʀ ᴘʀᴇғɪx ᴜsɪɴɢ ᴛʜᴇ .ᴘʀᴇғɪx ᴄᴏᴍᴍᴀɴᴅ
