@@ -5,7 +5,7 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "malvin~du0BlbwY#gPZgd2yq4r-G9cZXNOEQ9sMR4FQc4JRsfwhGvT9NfQE",
+SESSION_ID: process.env.SESSION_ID || "malvin~Am0XgDgT#HSRj1aO8-dHVL9bK6DfV0tLymAPu7w7m5zT4HYWBFQw",
 // add your Session Id make sure it starts with malvin~
 PREFIX: process.env.PREFIX || ".",
 // add your prifix for bot   
@@ -95,7 +95,7 @@ OWNER_NAME: process.env.OWNER_NAME || "ᴍᴀʟᴠɪɴ ᴛᴇᴄʜ",
         ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "false",
 // maks true for always online 
 
-         PUBLIC_MODE: process.env.PUBLIC_MODE || "true",
+         PUBLIC_MODE: process.env.PUBLIC_MODE || "false",
 // make false if want private mod
 
         AUTO_TYPING: process.env.AUTO_TYPING || "false",
