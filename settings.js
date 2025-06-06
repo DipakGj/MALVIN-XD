@@ -5,7 +5,7 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "malvin~E6MAmSRY#s4G7aNHoivgzYXvQKzJaPcLY18zOr8dYxoscqweBJZE",
+SESSION_ID: process.env.SESSION_ID || "malvin~du0BlbwY#gPZgd2yq4r-G9cZXNOEQ9sMR4FQc4JRsfwhGvT9NfQE",
 // add your Session Id make sure it starts with malvin~
 PREFIX: process.env.PREFIX || ".",
 // add your prifix for bot   
@@ -28,7 +28,7 @@ MODE: process.env.MODE || "public",
 // set the auto reply massage on status reply  
 
 
-       WELCOME: process.env.WELCOME || "true",
+       WELCOME: process.env.WELCOME || "false",
 // true if want welcome to our group good by tu pod mara Bokachoda 
 
    
