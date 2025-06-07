@@ -5,13 +5,13 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "malvin~srlwhCyR#5bFiO0m82xUYqdwCBjl1fxkWSCo2WM9N7hYzKyCk0yU",
+SESSION_ID: process.env.SESSION_ID || "",
 // add your Session Id make sure it starts with malvin~
 PREFIX: process.env.PREFIX || ".",
 // add your prifix for bot   
 BOT_NAME: process.env.BOT_NAME || "ᴍᴀʟᴠɪɴ-xᴅ",
 // add bot name here for menu
-MODE: process.env.MODE || "public",
+MODE: process.env.MODE || "private",
 // make bot public-private-inbox-group 
 
 
@@ -28,8 +28,8 @@ MODE: process.env.MODE || "public",
 // set the auto reply massage on status reply  
 
 
-       WELCOME: process.env.WELCOME || "false",
-// true if want welcome to our group good by tu pod mara Bokachoda 
+       WELCOME: process.env.WELCOME || "truee",
+// true if want Bokachoda wellcome to our tu pod mara Bokachoda 
 
    
        ADMIN_EVENTS: process.env.ADMIN_EVENTS || "true",
